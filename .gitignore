@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# Logs
+logs/*.log
+logs/*.json
+logs/session_*
+
+# User data
+data/saves/*
+!data/saves/.gitkeep
+
+# Cache files
+*.cache
+cache/
+
+# Config overrides (keep template)
+config.local.yaml
+.env.local
+
+# Assets (large files, user should add manually)
+BGM/*.mp3
+BGM/*.wav
+BGM/*.ogg
+背景/*.jpg
+背景/*.png
+立ち絵/*/*.jpg
+立ち絵/*/*.png
+
+# Generated files
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.log
+
+# 設定とキャッシュ
+config.yaml
+cache/
+*.cache
+
+# ゲームデータ
+data/saves/
+data/temp/
+
+# アセットファイル（サイズが大きい可能性）
+*.wav
+*.mp3
+*.ogg
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# テストとカバレッジ
+.coverage
+.pytest_cache/
+*.cover
+.hypothesis/

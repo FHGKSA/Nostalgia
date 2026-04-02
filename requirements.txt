@@ -1,0 +1,24 @@
+# AIVisualNovelGUIFrameWork Requirements
+# GUI Framework
+PyQt6>=6.6.0
+# or alternatively
+# PySide6>=6.6.0
+
+# HTTP client for Ollama API
+requests>=2.31.0
+
+# Image processing and manipulation
+Pillow>=10.0.0
+
+# Audio processing
+pygame>=2.5.2
+
+# Configuration management
+pyyaml>=6.0.1
+
+# Logging and debugging
+colorlog>=6.7.0
+
+# Development dependencies
+pytest>=7.4.0
+pytest-qt>=4.2.0

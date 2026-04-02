@@ -1,0 +1,94 @@
+# Nostalgia - 設定例
+# このファイルをconfig.yamlにコピーして、
+# あなたの環境に合わせて設定を調整してください
+
+animation:
+  easing_curve: ease_in_out
+  fade_duration: 500
+  slide_duration: 800
+  text_typing_speed: 50
+
+text:
+  typing_speed: 30
+  character_delay: 50
+  auto_advance_time: 3000
+  font_size: 16
+  line_height: 1.2
+  text_color: "#ffffff"
+  background_color: "rgba(0,0,0,0.7)"
+  border_color: "#444444"
+  ruby_size_ratio: 0.6
+  outline_enabled: true
+  outline_color: "#000000"
+  outline_width: 1
+  history_max_lines: 500
+
+asset_manager:
+  cache_size: 50
+  image_quality: 95
+
+assets:
+  background_dir: 背景
+  bgm_dir: BGM
+  cache_size: 50
+  character_dir: 立ち絵
+  image_quality: 95
+  prompt_dir: 初期プロンプト
+
+logging:
+  backup_count: 5
+  console_output: true
+  file_enabled: true
+  file_path: logs/game.log
+  level: INFO
+  max_size: 10
+
+# Ollama API設定
+ollama:
+  # ローカルOllamaサーバーの設定
+  host: localhost
+  port: 11434
+  timeout: 30
+  
+  # 使用するモデル（必要に応じて変更）
+  default_model: llama3.1:8b
+  model_name: llama3.1:8b
+  
+  # Visual Novel特化モデルの例（カスタムモデルを使用する場合）
+  # default_model: Berghof-ERP-7B-Q8_0:latest
+  # model_name: lora-vn-model-custom:latest
+  
+  # リモートサーバーを使用する場合
+  # host: YOUR_OLLAMA_SERVER_IP
+  # port: 11434
+
+window:
+  fullscreen_available: true
+  height: 720
+  resizable: true
+  title: Nostalgia
+  width: 1280
+
+#####################
+# 環境別設定の例
+#####################
+
+# 高性能環境向け設定
+# animation:
+#   fade_duration: 300
+#   slide_duration: 500
+#   text_typing_speed: 30
+# text:
+#   typing_speed: 20
+# asset_manager:
+#   cache_size: 100
+
+# 低スペック環境向け設定  
+# animation:
+#   fade_duration: 800
+#   slide_duration: 1200
+#   text_typing_speed: 100
+# text:
+#   typing_speed: 50
+# asset_manager:
+#   cache_size: 20
